@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Jajam harshavardhan kumar</h1>
+        <nav>
+            <ul>
+                <li><a href="#about" class="button">About</a></li>
+                <li><a href="#projects" class="button">Projects</a></li>
+                <li><a href="#contact" class="button">Contact</a></li>
+                <li><a href="#services" class="button">Services</a></li>
+            </ul>
+        </nav>        
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="mine 3.jpg" alt="Profile Picture" class="profile-pic">
+            <p>Hello, I'm Jajam Sri Ranga Harshavardhan Kumar, a dedicated B.Tech student at Ramachandra College of Engineering, Eluru. I honed my web development skills through an internship at Internshala Trainings. Currently thriving as a Feature Skill Expert in Andhra Pradesh Government Schools, I bring a unique blend of technical expertise. Proficient in creating captivating front-end developments using HTML, CSS, and JS, along with Node.js. I am passionate about learning new technologies and always eager to contribute to meaningful projects. Excited about the journey ahead!</p>
+        </div>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Solar Grass Cutter</h3>
+                <p>I did my project as a variable head solar grass cutter using AI.</p>
+            </div>
+            <div class="project">
+                <h3>Portfolio Website</h3>
+                <p>A personal portfolio website showcasing my skills and projects using HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="project">
+                <h3>Weather App</h3>
+                <p>A weather forecasting web app using JavaScript and OpenWeather API.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>My Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <h3>Web Development</h3>
+                <p>Creating responsive and dynamic websites using HTML, CSS, JavaScript, and Node.js.</p>
+            </div>
+            <div class="service">
+                <h3>UI/UX Design</h3>
+                <p>Designing intuitive user interfaces with a focus on user experience and aesthetics.</p>
+            </div>
+            <div class="service">
+                <h3>Technical Training</h3>
+                <p>Providing hands-on training sessions in front-end development and programming fundamentals.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="submit_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+    
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
